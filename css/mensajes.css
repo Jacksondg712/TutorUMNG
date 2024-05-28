@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    font-family:'Roboto';
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.contTitle{
+    width: 80%;
+    height: 80px;
+    margin-top: 50px;
+    background-color: #970292;
+    text-align: center;
+    color: white;
+}
+
+.contRecent{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.contContact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.ContText{
+    margin-left: 20px;
+    padding: 0;
+}
+
+.Title{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.IconStar{
+    margin-left: 100px;
+}
+
+.RefIcon{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.RefHome{
+    margin: 50px auto;
+}

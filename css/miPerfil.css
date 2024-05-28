@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    font-family:'Roboto';
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.contPerfil{
+    margin-top: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ContTextPerfil{
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+    color: rgb(0, 153, 255) ;
+}
+
+.ContLineBlue{
+    width: 90%;
+    margin-top: 40px;
+}
+
+.contSeccion{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.secMensajes{
+border: 1px solid black;
+width: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 20px;
+border-radius: 5px;
+background-color: rgb(226, 224, 224);
+}
+
+.ContSeccionpage{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.RefSeccion{
+    color: rgb(0, 153, 255);
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RefHome{
+    margin-top: 130px;
+}
+

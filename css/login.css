@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    font-family:'Roboto';
+}
+
+.Container{
+    width: 90%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.IconProfile{
+    margin-top: 50px;
+}
+
+.Container-form{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputGroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 300px;
+    margin-top: 20px;
+}
+
+
+
+.FormInput{
+    margin-left: 10px;
+    border: 1px solid black;
+    width: 90%;
+}
+
+.FormInput:focus{
+    border-color: 1px solid rgb(0, 153, 255);
+}
+
+.ButtonLogin{
+    width: 90%;
+    height: 35px;
+    background-color:rgb(0, 153, 255); 
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.ContButton{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contAlterno{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
